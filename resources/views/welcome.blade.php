@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    BOOM
+
+                    Juliette
+
                 </div>
                     <p>bonjour</p>
                     <p>bonjour</p>
