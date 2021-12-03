@@ -13,7 +13,8 @@ class InfosController extends Controller
      */
     public function index()
     {
-        //
+        $nb = 5;
+        return view('Infos.index')->with(compact('nb'));
     }
 
     /**
@@ -21,9 +22,19 @@ class InfosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function show(Request $request)
     {
-        //
+      $nom = $request['nom'];
+
+      if(!empty($request['nom']))
+      {
+        DB::table('infos')->insert(['nom'=>$nom]);
+      }
+      else
+      {
+        return back();
+      }
+
     }
 
     /**
@@ -33,17 +44,6 @@ class InfosController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
     {
         //
     }

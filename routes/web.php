@@ -21,10 +21,18 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/infos', function () {
-    return view('infos.index');
-});
+/*Route::get('/infos', function () {
+    return view('Infos.index');
+});*/
 
 Route::get('/infos-show', function () {
-    return view('infos.show');
+    return view('Infos.show');
 });
+
+Route::get('/infos', 'InfosController@index');
+
+Route::post('/infos-show', 'InfosController@show');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
