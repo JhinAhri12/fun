@@ -1,7 +1,12 @@
+html {
+    font-size: 2vw;
+}
 body {
     text-align: center;
     margin:0;
     background: #A8D8DF;
+
+    width: 100vw;
 }
 header {
     
@@ -12,12 +17,17 @@ header {
 }
 .logo {
     padding:1%;
-    padding-left: 2%;
+    padding-left: 1%;
     font-size: 1.5rem;
     color:black;
+    font-family: 'Bangers', cursive;
+    border-bottom: 1px solid black;
+   
+    transform: rotate(-10deg);
 }
+
 nav {
-    width: 40%;
+    width: 50%;
     margin-top: auto;
     margin-bottom: auto;
 }  
@@ -30,14 +40,32 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 h1 {
+    position: relative;
+    width: 98vw;
     font-family:  Copperplate, Papyrus, fantasy;
+
     margin: 0;
-    padding:1%;
+    padding:1vw;
+    font-weight:bold;
+    
+    display: block;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: white;
     background-color: black;   
+}
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%);
 }
 h2 {
     margin-bottom:2%;

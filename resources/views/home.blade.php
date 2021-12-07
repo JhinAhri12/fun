@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Fun & useless</title>
-        <link href="fun.css" rel="stylesheet">
+        <link href="fun.css" rel="stylesheet"/>
     </head>
     <body>
         <header>
@@ -14,10 +14,15 @@
                     <li><a href="./home.blade.php">Accueil</a></li>
                     <li><a href="./index.blade.php">Reccueil</a></li>
                     <li><a href="./contact.blade.php">Contact</a></li>
+                    <li><a href="./home.blade.php">Connexion</a></li>
                 </ul>            
             </nav>    
         </header>
-        <h1>FUN FACTS ABOUT (USELESS) THINGS</h1>
+        <div class="text-box">
+            <h1>FUN FACTS ABOUT (USELESS) THINGS</h1>
+            <h1>FUN FACTS ABOUT (USELESS) THINGS</h1>
+        </div>
+       
         <main>
             <article> 
                 <h2>Perles</h2>
