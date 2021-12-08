@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Voici la page de connexion">
         <link rel ="stylesheet" type="text/css" href="register.css">
-        <title>Connexion</title>
+        <title>S'enregistrer</title>
     </head>
 
     <div class="container">
