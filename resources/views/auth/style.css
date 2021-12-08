@@ -60,10 +60,10 @@ input {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     -moz-backdrop-filter: blur(5px);
-    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.164);
     color: white;
     font-weight: 500;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.144);
     transition: all .3s;
     margin-bottom: 2em;
 }
@@ -83,7 +83,7 @@ input[type="button"] {
     width: 150px;
 }
 .drop {
-    background: rgba(54, 54, 54, 0.178);
+    background: rgba(54, 54, 54, 0.116);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
@@ -91,7 +91,7 @@ input[type="button"] {
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
-    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.151);
     animation: animate 10s linear infinite;
     animation-delay: calc(-1s * var(--i));
 }
