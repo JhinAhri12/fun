@@ -92,18 +92,31 @@ input[type="button"] {
     border-top: 1px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
     box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2);
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        transform: translateY(-40px);
+    }
+    50%
+    {
+        transform: translateY(40px);
+    }
 }
 .drop-1 {
     height: 80px;
     width: 80px;
-    top: -20px;
+    top: -55px;
     left: -40px;
     z-index: -1;
 }
 .drop-2 {
     height: 80px;
     width: 80px;
-    bottom: -30px;
+    bottom: -80px;
     right: 10px;
 }
 .drop-3 {
@@ -116,13 +129,13 @@ input[type="button"] {
 .drop-4 {
     height: 120px;
     width: 120px;
-    top: -60px;
+    top: -110px;
     right: -50px;
 }
 .drop-5 {
     height: 60px;
     width: 90px;
     bottom: 80px;
-    left: -10px;
+    left: -40px;
     z-index: -1;
 }

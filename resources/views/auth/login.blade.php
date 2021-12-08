@@ -19,11 +19,11 @@
     </form>
 
 <!--OMBRES-->
-    <div class="drop drop-1"></div>
-    <div class="drop drop-2"></div>
-    <div class="drop drop-3"></div>
-    <div class="drop drop-4"></div>
-    <div class="drop drop-5"></div>
+    <div class="drop drop-1" style="--i:0;"></div>
+    <div class="drop drop-2" style="--i:1;"></div>
+    <div class="drop drop-3" style="--i:2;"></div>
+    <div class="drop drop-4" style="--i:3;"></div>
+    <div class="drop drop-5" style="--i:4;"></div>
     </div>
 
 </html>
