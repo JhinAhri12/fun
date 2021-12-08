@@ -14,7 +14,8 @@
         <input type="email" placeholder="Email"><br>
         <input type="password" placeholder="Mot de passe"><br>
         <input type="button" value="Connexion"><br>
-        <a href="#">Mot de passe oublié</a>
+        <a href="register.blade.php">S'inscrire</a><br>
+        <a href="#">Mot de passe oublié ?</a>
     </form>
 
 <!--OMBRES-->
