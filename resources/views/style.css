@@ -45,6 +45,7 @@ nav .container .menu2 {
 header {
     height: 100vh;
     background: linear-gradient(45deg, #f80a3a, #0d34f5) center no-repeat fixed;
+    border-radius: 20px;
     background-size: cover;
     position: relative;
     overflow: hidden;
