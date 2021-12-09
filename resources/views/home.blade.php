@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Fun & useless</title>
-        <link href="fun.css" rel="stylesheet"/>
+        <link href="fun1.css" rel="stylesheet"/>
     </head>
     <body>
         <header>
@@ -26,35 +26,37 @@
         <main>
             <article> 
                 <h2>Perles</h2>
-                <section>
+                <section class="article-section">
                     <h3>Number 1</h3>
                     <p>The world looks mighty good to me, cause Tootsie Rolls are all I see. 
                         Whatever it is I think I see, becomes a Tootsie Roll to me!</p>
                 </section>       
-                <section>
+                <section class="article-section">
                     <h3>Number 2</h3>
                     <p>Tootsie Roll how I love your chocolatey chew, Tootsie Roll I think I'm in 
                         love with you. Whatever it is I think I see, becomes a Tootsie Roll to 
                         me!</p>
                 </section>
-                <section>
+                <section class="article-section">
                     <h3>Number 3</h3>
                     <p>Baby if you've ever wondered, wondered what ever became of me. I'm living on 
                         the air in Cincinnati, Cincinnati WKRP. Got time and tired of packing and 
                         unpacking.</p>
                 </section>
-                <section>
+                <section class="article-section">
                     <h3>Number 4</h3>
                     <p>Town to town, up and down the dial. Maybe you and me were never meant to be, 
                         But baby think of me once in a while. I'm in WKRP in Cincinnati.</p>
                 </section>
             </article>
             <aside>
-                <h3>Connexion</h3>
+                <section class="aside-section">
+                    <h4>Informations</h4>
+                </section>
             </aside>
         </main>
         <footer>
-            Pied-de-page
+        Copyright 2FFAUT©
         </footer>
     </body>
 </html>
