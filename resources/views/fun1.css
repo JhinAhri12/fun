@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 /* basic reset */
 *,
 *::before,
-*::after {
+*::after,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +12,7 @@
 
 /* generality */
 html {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 body {
     text-align: center;
@@ -21,22 +24,23 @@ body {
 header {    
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #42aac3;   
 }
 .logo {
-    padding:0.5% 1% 1.5%;
-    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    padding:0.3% 0.5%;
+    font-size: 1.3rem;
     color:powderblue;
-    font-family: 'Bangers', cursive;
-    text-decoration: powderblue wavy underline;
     transform: rotate(-10deg);
 }
 
 nav {
     width: 50%;
-    margin: auto 0;
+
 }  
 ul {
+    margin: auto 0;
     font-size: 1rem;
     list-style-type: none;
     display: flex;
@@ -52,20 +56,20 @@ ul {
 
 /* site title */
 h1 {
+    font-family: 'Anton', sans-serif;
     position: relative;
     width: 100%;
-    font-family:  Copperplate, Papyrus, fantasy;
     padding:1vw;
     display: block;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: white;
     background-color: black;   
 }
 h1:nth-child(2) {
 	position: absolute;
-	background-color: #fff;
-	color: #000;
+	background-color: white;
+	color: black;
 	clip-path: inset(-1% -1% 50% -1%);
 }
 
@@ -80,14 +84,24 @@ main{
 
 /* article */
 h2 {
+    font-size: 1.5rem;
     margin: 1% 0 2% 0;
 }
+.h2-home::before, .h2-home::after {
+    content: "\2606";
+}
+
 article {
-    width: 70%;
+    width: 60%;
     justify-items: center;
 }
+
+.note-home, .article-section > p, h3 {
+margin: 0 2%;
+padding: 0.8% 0;
+}
 h3 {
-    margin: 0 1% 2%;
+    font-size: 1.2rem;
     border-bottom: 1px solid #209bba;
 }
 .article-section {    
@@ -96,19 +110,49 @@ h3 {
     margin-right: auto;
     box-shadow: 4px 4px 10px #209bba;
 }
+.note-home {
+    border-top: 1px solid #209bba;
+    display:flex;
+    justify-content: space-between;
+}
+.contribution {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.proposition {
+    width:100%;
+    border: none;
+    background: powderblue;
+    padding:2%
+}
+.div-btn-contribution {
+    width:96%;
+    margin-top: 2%;
+    padding: 2% 0;
+    border-top: 1px solid #209bba;
+}
 
 /* aside */
 aside {
+    
+    height: 60vh;
     width: 30%;
-    display: flex;
+    
 }
-h4 {
+section {
+    font-size:1rem;
     margin: 3%;
 }
+h4 {
+    font-size: 1.2rem;
+    padding-top: 3%;
+}
 .aside-section {
-    height: 80%;
+    height: 60vh;
     width: 100%;
-    margin: auto;
+    margin-top: 10%;
     background: powderblue;
     border-radius: 10% 40% / 40% 10%;
 }
@@ -119,4 +163,3 @@ footer {
     background: #42aac3;
     font-size:0.8rem
 }
-
