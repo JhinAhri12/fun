@@ -21,7 +21,7 @@ body {
 }
 
 /* header */
-header {    
+.header-bar {    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ header {
 }
 .logo {
     font-family: 'Anton', sans-serif;
-    padding:0.3% 0.5%;
+    padding:0.3% 0.8%;
     font-size: 1.3rem;
     color:powderblue;
     transform: rotate(-10deg);
@@ -37,16 +37,14 @@ header {
 
 nav {
     width: 50%;
-
 }  
 ul {
-    margin: auto 0;
-    font-size: 1rem;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: right;
+    margin: auto 2%;
 }
+
+
+
 .text-box {
 	position: relative;
 	display: flex;
@@ -137,7 +135,7 @@ h3 {
 /* aside */
 aside {
     
-    height: 60vh;
+ 
     width: 30%;
     
 }
@@ -150,16 +148,40 @@ h4 {
     padding-top: 3%;
 }
 .aside-section {
-    height: 60vh;
+    height: 80%;
+    max-height: 500px;
     width: 100%;
     margin-top: 10%;
     background: powderblue;
     border-radius: 10% 40% / 40% 10%;
 }
 
+/* contact form */
+.contact-wrapper {
+    width:70%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+.form-group {
+    width: 90%;
+    margin: 3% auto;
+
+}
+.form-control {
+    margin-top: 0.5%;
+    
+}
+#no {
+    margin-left:5%
+}
+
+
 /* footer */
 footer {
     padding:1% ;
-    background: #42aac3;
+    /*background: red;*/
+    background: #42aac3;   
     font-size:0.8rem
 }
